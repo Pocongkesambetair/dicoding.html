@@ -1,0 +1,129 @@
+@media screen and (min-width: 1000px) {
+    main{
+        overflow: auto;
+    }
+    header{
+        display:inline;
+    }
+    h1, h2, h3, h4{
+        color: #3471bd;
+        font-family: "Merriweather", serif;
+        font-weight: 800px;
+        font-style: normal;
+    }
+    .nav h1{
+        padding:20px 20px 20px 20px;
+        color: white;
+        padding: 20px;
+        display:inline;
+    }
+    .nav{
+        background-color: #3471bd;
+        padding:50px;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    nav{
+        top: 0;
+        position: sticky;
+        padding: 5px;
+        background-color: #3471bd;
+    }
+    nav ul{
+        padding-inline: 4rem;
+        display: flex;
+    }
+    nav li{
+        list-style-type: none; 
+        margin-right: 20px;
+    }
+    .nav .line{
+        display:inline;
+    }
+    .nav .line li{
+        display:inline;
+        margin: 20px;
+    }
+    .nav .line li a{
+        color:white;
+        text-decoration: none;
+    }
+    .nav .line li a:hover{
+        text-decoration: underline;
+    }
+
+    body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        background-color:#3471bd;
+        color: white;
+        padding: 10px;
+    
+    }
+    .mark{
+        background-color: #3471bd;
+        
+    }
+    .mark-bershadow{
+    
+        font-weight: bold;
+        text-shadow: 4px 4px 3px rgb(110, 110, 167);
+    }
+    a[href]{
+        color: #3471bd;
+        font-size: 15px;
+        font-family: "Merriweather", serif;
+    }
+    p {
+        line-height: 1.5em;
+        text-align: justify;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 16px;
+    }
+    .foto{
+        display: block;
+        margin: auto;
+        width:70%;
+        object-fit: cover;
+        object-position: center;
+        max-height: 300px;
+        
+    }
+
+    .box{
+        border:5px dashed #3471bd;
+        border-radius: 30px 50px 0px 0px ;
+        width: 80px;
+        padding: 20px 150px 25px 50px;
+        float: right;
+        
+    }
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius:5px;
+        padding:50px;
+        margin:40px 400px 40px 400px;
+        flex-direction: left;
+        
+    }
+    
+    .logo{
+        margin:40px 100px 20px 100px;
+        flex-direction: right;
+        overflow: visible;
+    }
+    .foto-bandung{
+        margin: 30px 30px 30px 300px;
+        flex-direction: column;
+        float: right;
+    }
+    main{
+        padding: 30px;
+    }
+}
